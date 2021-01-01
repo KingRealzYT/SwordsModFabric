@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item COBALT_INGOT = new Item(new Item.Settings().group(Swords.ITEM_GROUP));
     public static final Item SILVER_INGOT = new Item(new Item.Settings().group(Swords.ITEM_GROUP));
     public static final Item BRUH_INGOT = new Item(new Item.Settings().group(Swords.ITEM_GROUP));
+    public static final Item HELL_IRON_INGOT = new Item(new Item.Settings().group(Swords.ITEM_GROUP));
 
     // Swords
 
@@ -32,6 +33,7 @@ public class ModItems {
     public static final BlockItem COBALT_BLOCK = new BlockItem(ModBlocks.COBALT_BLOCK, new Item.Settings().group(Swords.ITEM_GROUP));
     public static final BlockItem SILVER_BLOCK = new BlockItem(ModBlocks.SILVER_BLOCK, new Item.Settings().group(Swords.ITEM_GROUP));
     public static final BlockItem BRUH_BLOCK = new BlockItem(ModBlocks.BRUH_BLOCK, new Item.Settings().group(Swords.ITEM_GROUP));
+    public static final BlockItem HELL_IRON_BLOCK = new BlockItem(ModBlocks.HELL_IRON_BLOCK, new Item.Settings().group(Swords.ITEM_GROUP));
 
     // OreBlock Items
     public static final BlockItem BLACK_IRON_ORE = new BlockItem(ModBlocks.BLACK_IRON_ORE, new Item.Settings().group(Swords.ITEM_GROUP));
@@ -41,6 +43,7 @@ public class ModItems {
     public static final BlockItem COBALT_ORE = new BlockItem(ModBlocks.COBALT_ORE, new Item.Settings().group(Swords.ITEM_GROUP));
     public static final BlockItem SILVER_ORE = new BlockItem(ModBlocks.SILVER_ORE, new Item.Settings().group(Swords.ITEM_GROUP));
     public static final BlockItem BRUH_ORE = new BlockItem(ModBlocks.BRUH_ORE, new Item.Settings().group(Swords.ITEM_GROUP));
+    public static final BlockItem HELL_IRON_ORE = new BlockItem(ModBlocks.HELL_IRON_ORE, new Item.Settings().group(Swords.ITEM_GROUP));
 
     // Registering Items
     public static void registerItems() {
@@ -51,6 +54,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "silver_ingot"), SILVER_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "bruh_ingot"), BRUH_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "hell_iron_ingot"), HELL_IRON_INGOT);
     }
 
     // Registering Blocks
@@ -62,6 +66,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "cobalt_block"), COBALT_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "silver_block"), SILVER_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "bruh_block"), BRUH_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "hell_iron_block"), HELL_IRON_BLOCK);
     }
 
     // Registering OreBlocks
@@ -73,5 +78,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "cobalt_ore"), COBALT_ORE);
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "silver_ore"), SILVER_ORE);
         Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "bruh_ore"), BRUH_ORE);
+        Registry.register(Registry.ITEM, new Identifier(Swords.MOD_ID, "hell_iron_ore"), HELL_IRON_ORE);
     }
 }

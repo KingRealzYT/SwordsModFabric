@@ -27,6 +27,8 @@ public class ModBlocks
             .of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
     public static final Block BRUH_BLOCK = new Block(FabricBlockSettings
             .of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
+    public static final Block HELL_IRON_BLOCK = new Block(FabricBlockSettings
+            .of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
 
     // Ore Blocks
     public static final Block BLACK_IRON_ORE = new Block(FabricBlockSettings
@@ -43,6 +45,8 @@ public class ModBlocks
             .of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
     public static final Block BRUH_ORE = new Block(FabricBlockSettings
             .of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
+    public static final Block HELL_IRON_ORE = new Block(FabricBlockSettings
+            .of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL));
 
     // Registering Blocks
     public static void registerBlocks() {
@@ -53,6 +57,7 @@ public class ModBlocks
         Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "cobalt_block"), COBALT_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "silver_block"), SILVER_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "bruh_block"), BRUH_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "hell_iron_block"), HELL_IRON_BLOCK);
     }
 
     // Registering OreBlocks
@@ -64,6 +69,7 @@ public class ModBlocks
         Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "cobalt_ore"), COBALT_ORE);
         Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "silver_ore"), SILVER_ORE);
         Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "bruh_ore"), BRUH_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(Swords.MOD_ID, "hell_iron_ore"), HELL_IRON_ORE);
     }
 
 
