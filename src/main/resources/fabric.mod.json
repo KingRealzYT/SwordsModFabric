@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "rswords",
+  "version": "${version}",
+
+  "name": "SwordsMod",
+  "description": "This adds in new Swords, Ingots, Blocks, and Ores!",
+  "authors": [
+    "KingRealzYT!"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/swords-mod",
+    "sources": "https://github.com/KingRealzYT/SwordsModFabric"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rswords/vampiric_sword.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kingrealzyt.swords.Swords"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
