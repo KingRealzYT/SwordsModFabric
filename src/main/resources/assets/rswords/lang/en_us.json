@@ -1,0 +1,13 @@
+{
+  "item.rswords.black_iron_ingot": "Black Iron Ingot",
+
+  "block.rswords.black_iron_ore": "Black Iron Ore",
+
+  "itemGroup.rswords.ingots": "Swords Mod | Ingots",
+  "itemGroup.rswords.shards": "Swords Mod | Shards",
+  "itemGroup.rswords.essences": "Swords Mod | Essences",
+  "itemGroup.rswords.sticks": "Swords Mod | Sticks",
+  "itemGroup.rswords.swords": "Swords Mod | Swords",
+  "itemGroup.rswords.blocks": "Swords Mod | Blocks",
+  "itemGroup.rswords.ores": "Swords Mod | Ores"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "rswords",
+  "version": "${version}",
+
+  "name": "Swords Mod",
+  "description": "This is SwordsMod, Originally made for Forge, The mod has been ported over to fabric!",
+  "authors": [
+    "Realz"
+  ],
+  "contact": {
+    "homepage": "https://realz.dev",
+    "sources": "https://github.com/kingrealzyt/swordsmodfabric"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rswords/SwordsMod.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.realz.swordsmod.SwordsMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
