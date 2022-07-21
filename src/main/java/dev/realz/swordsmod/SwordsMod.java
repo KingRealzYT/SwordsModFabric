@@ -2,6 +2,7 @@ package dev.realz.swordsmod;
 
 import dev.realz.swordsmod.init.ModBlocks;
 import dev.realz.swordsmod.init.ModItems;
+import dev.realz.swordsmod.world.gen.ModOreGen;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -19,17 +20,17 @@ public class SwordsMod implements ModInitializer {
 
     public static final ItemGroup SHARDTAB = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "shards"),
-            () -> new ItemStack(ModItems.BLACK_IRON_INGOT)
+            () -> new ItemStack(ModItems.BLACK_IRON_SHARD)
     );
 
     public static final ItemGroup ESSENCETAB = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "essences"),
-            () -> new ItemStack(ModItems.BLACK_IRON_INGOT)
+            () -> new ItemStack(ModItems.DRAGON_ESSENCE)
     );
 
     public static final ItemGroup STICKTAB = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "sticks"),
-            () -> new ItemStack(ModItems.BLACK_IRON_INGOT)
+            () -> new ItemStack(ModItems.IRON_STICK)
     );
 
     public static final ItemGroup SWORDTAB = FabricItemGroupBuilder.build(
@@ -39,7 +40,7 @@ public class SwordsMod implements ModInitializer {
 
     public static final ItemGroup BLOCKTAB = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "blocks"),
-            () -> new ItemStack(ModItems.BLACK_IRON_INGOT)
+            () -> new ItemStack(ModBlocks.BLACK_IRON_BLOCK)
     );
 
     public static final ItemGroup ORETAB = FabricItemGroupBuilder.build(
@@ -49,8 +50,14 @@ public class SwordsMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModItems.registerShards();
         ModItems.registerIngots();
+        ModItems.registerEssences();
+        ModItems.registerSticks();
         ModItems.registerSwords();
         ModBlocks.registerOres();
+        ModOreGen.registerConfiguredOre();
+        ModOreGen.registerPlacedOre();
+        ModOreGen.registerBiomeMod();
     }
 }

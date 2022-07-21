@@ -1,9 +1,18 @@
 {
+  "item.rswords.black_iron_shard": "Black Iron Shard",
+
   "item.rswords.black_iron_ingot": "Black Iron Ingot",
 
-  "item.rswords.black_iron_sword": "Black Iron Sword",
+  "item.rswords.dragon_essence": "Dragon Essence",
+
+  "item.rswords.iron_stick": "Iron Stick",
+  "item.rswords.hell_iron_stick": "Hell Iron Stick",
 
   "block.rswords.black_iron_ore": "Black Iron Ore",
+
+  "block.rswords.black_iron_block": "Block of Black Iron",
+
+  "item.rswords.black_iron_sword": "Black Iron Sword",
 
   "itemGroup.rswords.ingots": "Swords Mod | Ingots",
   "itemGroup.rswords.shards": "Swords Mod | Shards",
