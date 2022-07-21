@@ -34,7 +34,7 @@ public class SwordsMod implements ModInitializer {
 
     public static final ItemGroup SWORDTAB = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "swords"),
-            () -> new ItemStack(ModItems.BLACK_IRON_INGOT)
+            () -> new ItemStack(ModItems.BLACK_IRON_SWORD)
     );
 
     public static final ItemGroup BLOCKTAB = FabricItemGroupBuilder.build(
@@ -50,6 +50,7 @@ public class SwordsMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerIngots();
+        ModItems.registerSwords();
         ModBlocks.registerOres();
     }
 }
