@@ -1,0 +1,110 @@
+{
+  "item.rswords.black_iron_shard": "Tesson de Fonte",
+  "item.rswords.hell_iron_shard": "Tesson de Fer Infernal",
+  "item.rswords.fire_shard": "Tesson de Feu",
+  "item.rswords.ender_shard": "Tesson de l'Ender",
+
+  "item.rswords.black_iron_ingot": "Lingot de Fonte ",
+  "item.rswords.blood_iron_ingot": "Lingot de Fer Sanglant",
+  "item.rswords.fire_ingot": "Lingot de Feu",
+  "item.rswords.crimson_ingot": "Lingot de Carmin",
+  "item.rswords.cobalt_ingot": "Lingot de Cobalt",
+  "item.rswords.silver_ingot": "Lingot de l'Argent",
+  "item.rswords.bruh_ingot": "Lingot de Bruh!",
+  "item.rswords.hell_iron_ingot": "Lingot de Fer Infernal",
+  "item.rswords.ender_ingot": "Lingot de L'Ender",
+
+  "item.rswords.dragon_essence": "Essence de Dragon",
+
+  "item.rswords.iron_stick": "Bâton de Fer",
+  "item.rswords.hell_iron_stick": "Bâton de Fer Infernal",
+
+  "block.rswords.black_iron_block": "Bloc de Fonte",
+  "block.rswords.blood_iron_block": "Bloc de Fer Sanglant",
+  "block.rswords.fire_block": "Bloc de Condensé Feu",
+  "block.rswords.crimson_block": "Bloc de Carmin",
+  "block.rswords.cobalt_block": "Bloc de Cobalt",
+  "block.rswords.silver_block": "Bloc de l'Argent",
+  "block.rswords.bruh_block": "Bloc de Condensé Bruh!",
+  "block.rswords.hell_iron_block": "Bloc de Fer Infernal",
+  "block.rswords.ender_block": "Bloc de l'Ender",
+
+  "block.rswords.black_iron_ore": "Minerai de Fonte",
+  "block.rswords.blood_iron_ore": "Minerai de Fer Sanglant",
+  "block.rswords.fire_ore": "Minerai de Feu",
+  "block.rswords.crimson_ore": "Minerai de Carmin",
+  "block.rswords.cobalt_ore": "Minerai de Cobalt",
+  "block.rswords.silver_ore": "Minerai de l'Argent",
+  "block.rswords.bruh_ore": "Minerai de Bruh!",
+  "block.rswords.hell_iron_ore": "Minerai de Fer Infernal",
+  "block.rswords.ender_ore": "Minerai de l'Ender",
+
+  "item.rswords.black_iron_sword": "Épée en Fonte",
+  "item.rswords.blood_iron_sword": "Épée en Fer Sanglant",
+  "item.rswords.fire_sword": "Épée en Feu",
+  "item.rswords.crimson_sword": "Épée en Carmin",
+  "item.rswords.cobalt_sword": "Épée en Cobalt",
+  "item.rswords.silver_sword": "Épée en l'Argent",
+  "item.rswords.bruh_sword": "Épée en Bruh!",
+  "item.rswords.hell_iron_sword": "Épée en Fer Infernal",
+  "item.rswords.ender_sword": "Épée en l'Ender",
+
+  "item.rswords.vampiric_sword": "Épée en Vampirique",
+  "item.rswords.infested_sword": "Épée en Infestée",
+  "item.rswords.hell_bender_sword": "Épée de Maître de l'Enfer",
+
+  "item.rswords.holy_sword": "Épée Sacrée",
+
+  "itemGroup.ingottab": "Mod de Épées | Lingots",
+  "itemGroup.shardtab": "Mod de Épées | Tessons",
+  "itemGroup.essencetab": "Mod de Épées | Essences",
+  "itemGroup.sticktab": "Mod de Épées | Bâtons",
+  "itemGroup.swordstab": "Mod de Épées | Étées",
+  "itemGroup.blockstab": "Mod de Épées | Blocs",
+  "itemGroup.oretab": "Mod de Épées | Minearais",
+
+  "advancement.rswords.get_sword.title": "Étée",
+  "advancement.rswords.get_sword.description": "Obtenez une épée, c'est une bonne arme",
+  "advancement.rswords.get_all_swords.title": "Collectionneur de armes pointues",
+  "advancement.rswords.get_all_swords.description": "Avoir au moins une de chaque épée",
+
+  "advancement.rswords.get_hell_bender_sword.title": "Étée de Diable",
+  "advancement.rswords.get_hell_bender_sword.description": "Fabriquez une épée de maître de l'enfer",
+  "advancement.rswords.get_infested_sword.title": "Étée de Scientifique",
+  "advancement.rswords.get_infested_sword.description": "Fabriquez une épée en infesté",
+  "advancement.rswords.get_vampiric_sword.title": "Étée de Dracula",
+  "advancement.rswords.get_vampiric_sword.description": "Fabriquez une épée en vampirique",
+
+  "advancement.rswords.get_holy_sword.title": "Sainte Mère de Dieu",
+  "advancement.rswords.get_holy_sword.description": "Fabriquez une épée Sacrée",
+
+  "advancement.rswords.kill_entity_with_sword.title": "Tueur",
+  "advancement.rswords.kill_entity_with_sword.description": "Tuer quelqu'un avec une épée",
+
+  "advancement.rswords.kill_blaze_with_fire_sword.title": "Feu Contre Deu",
+  "advancement.rswords.kill_blaze_with_fire_sword.description": "Teur un Blaze acec épée de feu",
+  "advancement.rswords.kill_silverfish_with_silver_sword.title": "Argent Contre Argent",
+  "advancement.rswords.kill_silverfish_with_silver_sword.description": "Teur un poisson d'argent aven épée d'argent",
+  "advancement.rswords.kill_enderman_with_ender_sword.title": "Ender Contre Ender",
+  "advancement.rswords.kill_enderman_with_ender_sword.description": "Teur un Enderman avec une épée d'ender",
+  "advancement.rswords.kill_endermite_with_ender_sword.title": "Ender Contre Ender II",
+  "advancement.rswords.kill_endermite_with_ender_sword.description": "Teur une Endermite avec une épée d'ender",
+
+  "advancement.rswords.charge_creeper.title": "Épée Électrifiée",
+  "advancement.rswords.charge_creeper.description": "Transformez un Creeper dedans un Creeper chargé en le frappant avec épée sacrée sans le tuer",
+
+  "advancement.rswords.overkill.title": "Massacre",
+  "advancement.rswords.overkill.description": "Infligez au moins vingt cœurs de dégâts en un seul coup",
+  "advancement.rswords.overkill_bat.title": "Cette Chauve-Souris Innocente",
+  "advancement.rswords.overkill_bat.description": "Infligez au moins vingt-cinq cœurs de dégâts vers une chauve-souris",
+
+  "advancement.rswords.kill_zombie_having_holy_sword.title": "Maître Combattant",
+  "advancement.rswords.kill_zombie_having_holy_sword.description": "Donnez un zombie ordinaire une épée sacrée enchantée à tranchant V, ensuit il prévaloissez aven une épée en bois",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Encore Plus Maître Combattant",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Donnez un zombie ordinaire une épée sacrée enchantée à tranchant V, ensuit il prévaloissez aven une pelle en bois",
+
+  "advancement.minecraft.story.bruh.title": "Bruhnant Incroyable",
+  "advancement.minecraft.story.bruh.description": "Avoir 42 lingots de bruh",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.title": "Arme Faible, Dragon Fort",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.description": "Frapper le dernier coup dans l'Ender Dragon avec une épée en bois"
+}

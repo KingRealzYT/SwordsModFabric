@@ -1,0 +1,62 @@
+{
+  "item.rswords.black_iron_shard": "Sort Jern Shard",
+  "item.rswords.hell_iron_shard": "Helvede Jern Shard",
+  "item.rswords.fire_shard": "Ild Shard",
+  "item.rswords.ender_shard": "Ender Shard",
+
+  "item.rswords.black_iron_ingot": "Sort Jern Ingot",
+  "item.rswords.blood_iron_ingot": "Blod Jern Ingot",
+  "item.rswords.fire_ingot": "Ild Ingot",
+  "item.rswords.crimson_ingot": "Crimson Ingot",
+  "item.rswords.cobalt_ingot": "Kobolt Ingot",
+  "item.rswords.silver_ingot": "Sølv Ingot",
+  "item.rswords.bruh_ingot": "Bruh Ingot!",
+  "item.rswords.hell_iron_ingot": "Helvede Jern Ingot",
+  "item.rswords.ender_ingot": "Ender Ingot",
+
+  "item.rswords.iron_stick": "Jern Pind",
+  "item.rswords.hell_iron_stick": "Helvede Jern Pind",
+
+  "block.rswords.black_iron_block": "Blok af Sort Jern",
+  "block.rswords.blood_iron_block": "Blok af Blod Jern",
+  "block.rswords.fire_block": "Blok af Kondenseret Ild",
+  "block.rswords.crimson_block": "Blok af Crimson",
+  "block.rswords.cobalt_block": "Blok af Kobolt",
+  "block.rswords.silver_block": "Blok af Sølv",
+  "block.rswords.bruh_block": "Blok af Kondenseret Bruh!",
+  "block.rswords.hell_iron_block": "Blok af Helvede Jern",
+  "block.rswords.ender_block": "Blok af Ender",
+
+  "block.rswords.black_iron_ore": "Sort Jern Malm",
+  "block.rswords.blood_iron_ore": "Bold Jern Malm",
+  "block.rswords.fire_ore": "Ild Malm",
+  "block.rswords.crimson_ore": "Crimson Malm",
+  "block.rswords.cobalt_ore": "Kobolt Malm",
+  "block.rswords.silver_ore": "Sølv Malm",
+  "block.rswords.bruh_ore": "Bruh Malm!",
+  "block.rswords.hell_iron_ore": "Helvede Jern Malm",
+  "block.rswords.ender_ore": "Ender Malm",
+
+  "item.rswords.black_iron_sword": "Sort Jern Svær",
+  "item.rswords.blood_iron_sword": "Blod Jern Svær",
+  "item.rswords.fire_sword": "Ild Svær",
+  "item.rswords.crimson_sword": "Crimson Svær",
+  "item.rswords.cobalt_sword": "Kobolt Svær",
+  "item.rswords.silver_sword": "Sølv Svær",
+  "item.rswords.bruh_sword": "Bruh Svær!",
+  "item.rswords.hell_iron_sword": "Helvede Jern Svær",
+  "item.rswords.ender_sword": "Ender Svær",
+
+  "item.rswords.vampiric_sword": "Vampiric Svær",
+  "item.rswords.infested_sword": "Infested Svær",
+  "item.rswords.hell_bender_sword": "Helvede Bender Svær",
+
+  "item.rswords.holy_sword": "Hellig Svær",
+
+  "itemGroup.ingottab": "Svær Mod | Ingots",
+  "itemGroup.shardtab": "Svær Mod | Shards",
+  "itemGroup.sticktab": "Svær Mod | Pinde",
+  "itemGroup.swordstab": "Svær Mod | Svær",
+  "itemGroup.blockstab": "Svær Mod | Bloks",
+  "itemGroup.oretab": "Svær Mod | Malm"
+}

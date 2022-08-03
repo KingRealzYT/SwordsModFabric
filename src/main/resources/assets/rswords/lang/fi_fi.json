@@ -1,0 +1,110 @@
+{
+  "item.rswords.black_iron_shard": "Valurautasirpale",
+  "item.rswords.hell_iron_shard": "Helvetillinen Rautasirpale",
+  "item.rswords.fire_shard": "Tulisirpale",
+  "item.rswords.ender_shard": "Ender-sirpale",
+
+  "item.rswords.black_iron_ingot": "Valurautaharkko",
+  "item.rswords.blood_iron_ingot": "Verirautaharkko",
+  "item.rswords.fire_ingot": "Tuliharkko",
+  "item.rswords.crimson_ingot": "Karmiiniharkko",
+  "item.rswords.cobalt_ingot": "Kobolttiharkko",
+  "item.rswords.silver_ingot": "Hopeaharkko",
+  "item.rswords.bruh_ingot": "Bruh-harkko!",
+  "item.rswords.hell_iron_ingot": "Helvetillinen Rautaharkko",
+  "item.rswords.ender_ingot": "Ender-harkko",
+
+  "item.rswords.dragon_essence": "Lohikäärmeydin",
+
+  "item.rswords.iron_stick": "Rautakeppi",
+  "item.rswords.hell_iron_stick": "Helvetillinen Rautakeppi",
+
+  "block.rswords.black_iron_block": "Valurautakuutio",
+  "block.rswords.blood_iron_block": "Verirautakuutio",
+  "block.rswords.fire_block": "Tiivistetty Tulikuutio",
+  "block.rswords.crimson_block": "Karmiinikuutio",
+  "block.rswords.cobalt_block": "Kobalttikuutio",
+  "block.rswords.silver_block": "Hopeakuutio",
+  "block.rswords.bruh_block": "Keskitetty Bruh -kuutio!",
+  "block.rswords.hell_iron_block": "Helvetillinen Rautakuutio",
+  "block.rswords.ender_block": "Ender-kuutio",
+
+  "block.rswords.black_iron_ore": "Valurautamalmi",
+  "block.rswords.blood_iron_ore": "Verirautamalmi",
+  "block.rswords.fire_ore": "Tulimalmi",
+  "block.rswords.crimson_ore": "Karmiinimalmi",
+  "block.rswords.cobalt_ore": "Kobalttimalmi",
+  "block.rswords.silver_ore": "Hopeamalmi",
+  "block.rswords.bruh_ore": "Bruh-malmi!",
+  "block.rswords.hell_iron_ore": "Helvetillinen Rautamalmi",
+  "block.rswords.ender_ore": "Ender-malmi",
+
+  "item.rswords.black_iron_sword": "Valurautamiekka",
+  "item.rswords.blood_iron_sword": "Verirautamiekka",
+  "item.rswords.fire_sword": "Tulimiekka",
+  "item.rswords.crimson_sword": "Karmiinimiekka",
+  "item.rswords.cobalt_sword": "Kobalttimiekka",
+  "item.rswords.silver_sword": "Hopeamiekka",
+  "item.rswords.bruh_sword": "Bruh-miekka!",
+  "item.rswords.hell_iron_sword": "Helvetilline Rautamiekka",
+  "item.rswords.ender_sword": "Ender-miekka",
+
+  "item.rswords.vampiric_sword": "Vamppyyrien Miekka",
+  "item.rswords.infested_sword": "Saastunut Miekka",
+  "item.rswords.hell_bender_sword": "Helvetin Taivuttajamiekka",
+
+  "item.rswords.holy_sword": "Pyhä Miekka",
+
+  "itemGroup.ingottab": "Miekkamodi | Harkot",
+  "itemGroup.shardtab": "Miekkamodi | Sirpaleet",
+  "itemGroup.essencetab": "Miekkamodi | Ytimet",
+  "itemGroup.sticktab": "Miekkamodi | Kepit",
+  "itemGroup.swordstab": "Miekkamodi | Miekat",
+  "itemGroup.blockstab": "Miekkamodi | Kuutiot",
+  "itemGroup.oretab": "Miekkamodi | Malmit",
+
+  "advancement.rswords.get_sword.title": "Miekka",
+  "advancement.rswords.get_sword.description": "Hanki miekka, se toimii hyvin aseena",
+  "advancement.rswords.get_all_swords.title": "Terävien Aseiden Keräilijä",
+  "advancement.rswords.get_all_swords.description": "Pidä ainakin yksi joikaista miekkaa tavaraluettelossasi",
+
+  "advancement.rswords.get_hell_bender_sword.title": "Paholaisen Ase",
+  "advancement.rswords.get_hell_bender_sword.description": "Rakenna Helvetin Taivuttajamiekka",
+  "advancement.rswords.get_infested_sword.title": "Tutkijan Ase",
+  "advancement.rswords.get_infested_sword.description": "Rakenna Saastunut Miekka",
+  "advancement.rswords.get_vampiric_sword.title": "Draculan Ase",
+  "advancement.rswords.get_vampiric_sword.description": "Rakenna Vamppyyrinen Miekka",
+
+  "advancement.rswords.get_holy_sword.title": "Pyhä Jysäys",
+  "advancement.rswords.get_holy_sword.description": "Rakenna Pyhä Miekka",
+
+  "advancement.rswords.kill_entity_with_sword.title": "Teurastaja",
+  "advancement.rswords.kill_entity_with_sword.description": "Tapa jotakin miekallasi",
+
+  "advancement.rswords.kill_blaze_with_fire_sword.title": "Tuli Vastaan Tuli",
+  "advancement.rswords.kill_blaze_with_fire_sword.description": "Tapa Roihu tulimiekala",
+  "advancement.rswords.kill_silverfish_with_silver_sword.title": "Hopea Vastaan Hopea",
+  "advancement.rswords.kill_silverfish_with_silver_sword.description": "Tapa Sokeritoukka hopeamiekalla",
+  "advancement.rswords.kill_enderman_with_ender_sword.title": "Ender Vastaan Ender",
+  "advancement.rswords.kill_enderman_with_ender_sword.description": "Tapa Enderman ender-miekalla",
+  "advancement.rswords.kill_endermite_with_ender_sword.title": "Ender Vastaan Ender II",
+  "advancement.rswords.kill_endermite_with_ender_sword.description": "Tapa Ender-punkki ender-miekalla",
+
+  "advancement.rswords.charge_creeper.title": "Sähköistetty Miekka",
+  "advancement.rswords.charge_creeper.description": "Muuta Creeper sähköistetyksi Creeperiksi lyömällä sitä Pyhällä miekalla ilman, että se kuolee",
+
+  "advancement.rswords.overkill.title": "Ylilyönti",
+  "advancement.rswords.overkill.description": "Tee ainakin 50 vahinkoa lepakkoon",
+  "advancement.rswords.overkill_bat.title": "Voi Tuota Syytöntä Lepakkoa",
+  "advancement.rswords.overkill_bat.description": "Tee ainakin 50 vahinkoa lepakkoon",
+
+  "advancement.rswords.kill_zombie_having_holy_sword.title": "Mestari Taistelija",
+  "advancement.rswords.kill_zombie_having_holy_sword.description": "Anna Tavalliselle Zombille Pyhä miekka, joka on lumottu Terävyys V -lumouksella, sitten voita se taistelussa puumiekalla",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Vielä Parempi Mestari Taistelija",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Anna Tavalliselle Zombille Pyhä miekka, joka on lumottu Terävyys V -lumouksella, sitten voita se taistelussa puulapiolla",
+
+  "advancement.minecraft.story.bruh.title": "Bruhin Mahtavaa",
+  "advancement.minecraft.story.bruh.description": "Hanki 42 bruh-harkkoa",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.title": "Heikko Ase, Vahva Lohikäärme",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.description": "Lyö viimeinen osuma Ender-lohikäärmeeseen puumiekalla"
+}

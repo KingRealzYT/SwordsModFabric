@@ -8,7 +8,31 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements ToolMaterial {
 
-    BLACK_IRON(3, 1500, 7.0F, 6, 11, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT));
+    BLACK_IRON(3, 1500, 7.0F, 6, 11, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    BLOOD_IRON(3, 1500, 7.0F, 6, 11, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    FIRE(3, 1800, 7.0F, 7, 12, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    CRIMSON(3, 1600, 7.0F, 6, 11, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    COBALT(3, 1600, 7.0F, 6, 11, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    SILVER(3, 1500, 7.0F, 6, 11, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    BRUH(3, 1800, 7.0F, 6.5F, 12, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    HELL(3, 1800, 7.0F, 7, 12, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    ENDER(3, 2000, 7.0F, 9, 13, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    VAMPIRIC(3, 2200, 7.0F, 10, 15, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    INFESTED(3, 2400, 7.0F, 11, 16, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    HELL_BENDER(3, 2600, 7.0F, 12, 17, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT)),
+
+    HOLY(3, 3000, 7.0F, 18, 18, () -> Ingredient.ofItems(ModItems.BLACK_IRON_INGOT));
 
     private final int harvestLevel;
     private final int maxUses;

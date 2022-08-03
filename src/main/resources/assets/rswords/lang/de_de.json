@@ -1,0 +1,62 @@
+{
+  "item.rswords.black_iron_shard": "Schwarze Eisenscherbe",
+  "item.rswords.hell_iron_shard": "Höllen-Eisenscherbe",
+  "item.rswords.fire_shard": "Feuerscherbe",
+  "item.rswords.ender_shard": "Enderscherbe",
+
+  "item.rswords.black_iron_ingot": "Schwarzer Eisenbarren",
+  "item.rswords.blood_iron_ingot": "Blut-Eisenbarren",
+  "item.rswords.fire_ingot": "Feuerbarren",
+  "item.rswords.crimson_ingot": "Karmesinbarren",
+  "item.rswords.cobalt_ingot": "Kobaltbarren",
+  "item.rswords.silver_ingot": "Silberbarren",
+  "item.rswords.bruh_ingot": "Bruh!-Barren",
+  "item.rswords.hell_iron_ingot": "Höllen-Eisenbarren",
+  "item.rswords.ender_ingot": "Enderbarren",
+
+  "item.rswords.iron_stick": "Eisenstab",
+  "item.rswords.hell_iron_stick": "Höllen Eisenbarren",
+
+  "block.rswords.black_iron_block": "Schwarzer Eisenblock",
+  "block.rswords.blood_iron_block": "Blut-Eisenblock",
+  "block.rswords.fire_block": "Kondensierter Feuerblock",
+  "block.rswords.crimson_block": "Karmesinblock",
+  "block.rswords.cobalt_block": "Kobaltblock",
+  "block.rswords.silver_block": "Silberblock",
+  "block.rswords.bruh_block": "Konzentrierter Bruh!-Block",
+  "block.rswords.hell_iron_block": "Höllen-Eisenblock",
+  "block.rswords.ender_block": "Enderblock",
+
+  "block.rswords.black_iron_ore": "Schwarzes Eisenerz",
+  "block.rswords.blood_iron_ore": "Blut-Eisenerz",
+  "block.rswords.fire_ore": "Feuererz",
+  "block.rswords.crimson_ore": "Karmesinerz",
+  "block.rswords.cobalt_ore": "Kobalterz",
+  "block.rswords.silver_ore": "Silbererz",
+  "block.rswords.bruh_ore": "Bruh!-Erz",
+  "block.rswords.hell_iron_ore": "Höllen-Eisenerz",
+  "block.rswords.ender_ore": "Endererz",
+
+  "item.rswords.black_iron_sword": "Schwarzes Eisenschwert",
+  "item.rswords.blood_iron_sword": "Blut-Eisenschwert",
+  "item.rswords.fire_sword": "Feuerschwert",
+  "item.rswords.crimson_sword": "Karmesinschwert",
+  "item.rswords.cobalt_sword": "Kobaltschwert",
+  "item.rswords.silver_sword": "Silberschwert",
+  "item.rswords.bruh_sword": "Bruh!-Schwert",
+  "item.rswords.hell_iron_sword": "Höllen-Eisenschwert",
+  "item.rswords.ender_sword": "Enderschwert",
+
+  "item.rswords.vampiric_sword": "Vampirisches Schwert",
+  "item.rswords.infested_sword": "Befallenes Schwert",
+  "item.rswords.hell_bender_sword": "Höllenbezwinger Schwert",
+
+  "item.rswords.holy_sword": "Heiliges Schwert",
+
+  "itemGroup.ingottab": "Schwerter Mod | Barren",
+  "itemGroup.shardtab": "Schwerter Mod | Schwerben",
+  "itemGroup.sticktab": "Schwerter Mod | Stäbe",
+  "itemGroup.swordstab": "Schwerter Mod | Schwerter",
+  "itemGroup.blockstab": "Schwerter Mod | Blöcke",
+  "itemGroup.oretab": "Schwerter Mod | Erze"
+}
