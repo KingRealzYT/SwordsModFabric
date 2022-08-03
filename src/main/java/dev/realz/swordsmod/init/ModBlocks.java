@@ -23,7 +23,9 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(SwordsMod.MOD_ID, "black_iron_ore"), BLACK_IRON_ORE);
         Registry.register(Registry.ITEM, new Identifier(SwordsMod.MOD_ID, "black_iron_ore"),
                 new BlockItem(BLACK_IRON_ORE, new FabricItemSettings().group(SwordsMod.ORETAB)));
+    }
 
+    public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(SwordsMod.MOD_ID, "black_iron_block"), BLACK_IRON_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(SwordsMod.MOD_ID, "black_iron_block"),
                 new BlockItem(BLACK_IRON_BLOCK, new FabricItemSettings().group(SwordsMod.BLOCKTAB)));
