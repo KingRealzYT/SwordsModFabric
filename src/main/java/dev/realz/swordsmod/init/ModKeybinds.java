@@ -1,4 +1,4 @@
-package dev.realz.swordsmod.client;
+package dev.realz.swordsmod.init;
 
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
@@ -7,8 +7,7 @@ import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 
-public class SwordsClient {
-
+public class ModKeybinds {
 
     public static void registerKeys() {
         KeyBinding abilityKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
