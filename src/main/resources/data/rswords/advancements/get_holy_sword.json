@@ -1,0 +1,36 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.get_holy_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.get_holy_sword.description"
+    },
+    "icon": {
+      "item": "rswords:holy_sword"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:get_vampiric_sword",
+  "criteria": {
+    "holy_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:holy_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "holy_sword"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bef",
+    "ghj",
+    "iii"
+  ],
+  "key": {
+    "b": {
+      "item": "rswords:black_iron_sword"
+    },
+    "e": {
+      "item": "rswords:blood_iron_sword"
+    },
+    "f": {
+      "item": "rswords:fire_sword"
+    },
+    "g": {
+      "item": "rswords:black_iron_ingot"
+    },
+    "h": {
+      "item": "rswords:blood_iron_ingot"
+    },
+    "j": {
+      "item": "rswords:fire_ingot"
+    },
+    "i": {
+      "item": "rswords:iron_stick"
+    }
+  },
+  "result": {
+    "item": "rswords:vampiric_sword",
+    "count": 1
+  }
+}

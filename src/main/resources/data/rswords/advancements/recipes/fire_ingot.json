@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rswords:fire_block",
+      "rswords:fire_sword"
+    ]
+  },
+  "criteria": {
+    "has_correct_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:fire_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    },
+    {
+      "item": "rswords:cobalt_ingot"
+    }
+  ],
+  "result": {
+    "item": "rswords:cobalt_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.get_vampiric_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.get_vampiric_sword.description"
+    },
+    "icon": {
+      "item": "rswords:vampiric_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:get_sword",
+  "criteria": {
+    "vampiric_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:vampiric_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "vampiric_sword"
+    ]
+  ]
+}

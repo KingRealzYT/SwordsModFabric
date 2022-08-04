@@ -1,0 +1,48 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.overkill_bat.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.overkill_bat.description"
+    },
+    "icon": {
+      "item": "rswords:black_iron_sword"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:overkill",
+  "criteria": {
+    "overkill": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 50
+          },
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "rswords:swords"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:bat"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 80
+  },
+  "requirements": [
+    [
+      "overkill"
+    ]
+  ]
+}

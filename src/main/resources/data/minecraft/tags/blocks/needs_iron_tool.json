@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "rswords:black_iron_ore",
+    "rswords:black_iron_block",
+    "rswords:blood_iron_ore",
+    "rswords:blood_iron_block",
+    "rswords:fire_ore",
+    "rswords:fire_block",
+    "rswords:crimson_ore",
+    "rswords:crimson_block",
+    "rswords:cobalt_ore",
+    "rswords:cobalt_block",
+    "rswords:silver_ore",
+    "rswords:silver_block",
+    "rswords:bruh_ore",
+    "rswords:bruh_block",
+    "rswords:hell_iron_ore",
+    "rswords:hell_iron_block",
+    "rswords:ender_ore",
+    "rswords:ender_block"
+  ]
+}

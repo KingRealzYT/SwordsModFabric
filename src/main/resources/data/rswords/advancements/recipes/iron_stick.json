@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rswords:hell_blender_sword",
+      "rswords:holy_sword",
+      "rswords:infested_sword",
+      "rswords:vampiric_sword"
+    ]
+  },
+  "criteria": {
+    "has_correct_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:iron_stick"
+          }
+        ]
+      }
+    }
+  }
+}

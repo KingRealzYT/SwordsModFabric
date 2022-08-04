@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:ender_block"
+    }
+  ],
+  "result": {
+    "item": "rswords:ender_ingot",
+    "count": 9
+  }
+}

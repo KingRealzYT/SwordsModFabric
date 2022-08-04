@@ -1,0 +1,36 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.get_hell_bender_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.get_hell_bender_sword.description"
+    },
+    "icon": {
+      "item": "rswords:hell_bender_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:get_sword",
+  "criteria": {
+    "hell_bender_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:hell_bender_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "hell_bender_sword"
+    ]
+  ]
+}

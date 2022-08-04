@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "e",
+    "e",
+    "i"
+  ],
+  "key": {
+    "e": {
+      "item": "rswords:ender_ingot"
+    },
+    "i": {
+      "item": "rswords:iron_stick"
+    }
+  },
+  "result": {
+    "item": "rswords:ender_sword",
+    "count": 1
+  }
+}

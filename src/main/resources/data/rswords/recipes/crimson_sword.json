@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c",
+    "c",
+    "i"
+  ],
+  "key": {
+    "c": {
+      "item": "rswords:crimson_ingot"
+    },
+    "i": {
+      "item": "rswords:iron_stick"
+    }
+  },
+  "result": {
+    "item": "rswords:crimson_sword",
+    "count": 1
+  }
+}

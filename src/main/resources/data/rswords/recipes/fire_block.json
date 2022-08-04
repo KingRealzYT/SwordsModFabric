@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    },
+    {
+      "item": "rswords:fire_ingot"
+    }
+  ],
+  "result": {
+    "item": "rswords:fire_block",
+    "count": 1
+  }
+}

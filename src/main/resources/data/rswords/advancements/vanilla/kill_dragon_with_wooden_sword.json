@@ -1,0 +1,53 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.minecraft.end.kill_dragon_with_wooden_sword.title"
+    },
+    "description": {
+      "translate": "advancement.minecraft.end.kill_dragon_with_wooden_sword.description"
+    },
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/respawn_dragon",
+  "criteria": {
+    "killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "item": "minecraft:wooden_sword"
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "killed"
+    ]
+  ]
+}

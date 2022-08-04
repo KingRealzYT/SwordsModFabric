@@ -1,0 +1,21 @@
+ {
+     "type": "minecraft:crafting_shapeless",
+     "ingredients": [
+         {
+             "item": "rswords:ender_shard"
+         },
+         {
+             "item": "rswords:ender_shard"
+         },
+         {
+             "item": "rswords:ender_shard"
+         },
+         {
+             "item": "rswords:ender_shard"
+         }
+     ],
+     "result": {
+         "item": "rswords:ender_ingot",
+         "count": 1
+     }
+ }

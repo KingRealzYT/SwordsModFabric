@@ -1,0 +1,21 @@
+ {
+     "type": "minecraft:crafting_shapeless",
+     "ingredients": [
+         {
+             "item": "rswords:hell_iron_shard"
+         },
+         {
+             "item": "rswords:hell_iron_shard"
+         },
+         {
+             "item": "rswords:hell_iron_shard"
+         },
+         {
+             "item": "rswords:hell_iron_shard"
+         }
+     ],
+     "result": {
+         "item": "rswords:hell_iron_ingot",
+         "count": 1
+     }
+ }

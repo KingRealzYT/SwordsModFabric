@@ -1,0 +1,213 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.get_all_swords.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.get_all_swords.description"
+    },
+    "icon": {
+      "item": "rswords:blood_iron_sword"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:get_holy_sword",
+  "criteria": {
+    "wooden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wooden_sword"
+          }
+        ]
+      }
+    },
+    "stone_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_sword"
+          }
+        ]
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_sword"
+          }
+        ]
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_sword"
+          }
+        ]
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_sword"
+          }
+        ]
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_sword"
+          }
+        ]
+      }
+    },
+    "black_iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:black_iron_sword"
+          }
+        ]
+      }
+    },
+    "blood_iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:blood_iron_sword"
+          }
+        ]
+      }
+    },
+    "bruh_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:bruh_sword"
+          }
+        ]
+      }
+    },
+    "cobalt_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:cobalt_sword"
+          }
+        ]
+      }
+    },
+    "crimson_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:crimson_sword"
+          }
+        ]
+      }
+    },
+    "ender_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:ender_sword"
+          }
+        ]
+      }
+    },
+    "fire_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:fire_sword"
+          }
+        ]
+      }
+    },
+    "hell_bender_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:hell_bender_sword"
+          }
+        ]
+      }
+    },
+    "hell_iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:hell_iron_sword"
+          }
+        ]
+      }
+    },
+    "holy_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:holy_sword"
+          }
+        ]
+      }
+    },
+    "infested_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:infested_sword"
+          }
+        ]
+      }
+    },
+    "silver_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:silver_sword"
+          }
+        ]
+      }
+    },
+    "vampiric_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:vampiric_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 80
+  }
+}

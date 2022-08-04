@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bef",
+    "ghj",
+    "iii"
+  ],
+  "key": {
+    "b": {
+      "item": "rswords:crimson_sword"
+    },
+    "e": {
+      "item": "rswords:cobalt_sword"
+    },
+    "f": {
+      "item": "rswords:silver_sword"
+    },
+    "g": {
+      "item": "rswords:crimson_ingot"
+    },
+    "h": {
+      "item": "rswords:cobalt_ingot"
+    },
+    "j": {
+      "item": "rswords:silver_ingot"
+    },
+    "i": {
+      "item": "rswords:iron_stick"
+    }
+  },
+  "result": {
+    "item": "rswords:infested_sword",
+    "count": 1
+  }
+}

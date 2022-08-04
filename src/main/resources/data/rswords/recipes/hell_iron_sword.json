@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "h",
+    "h",
+    "i"
+  ],
+  "key": {
+    "h": {
+      "item": "rswords:hell_iron_ingot"
+    },
+    "i": {
+      "item": "rswords:hell_iron_stick"
+    }
+  },
+  "result": {
+    "item": "rswords:hell_iron_sword",
+    "count": 1
+  }
+}

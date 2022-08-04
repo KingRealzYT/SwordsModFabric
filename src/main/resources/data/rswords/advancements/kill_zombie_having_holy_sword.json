@@ -1,0 +1,58 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.kill_zombie_having_holy_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.kill_zombie_having_holy_sword.description"
+    },
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:get_holy_sword",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:zombie",
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "rswords:holy_sword"
+              ],
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:sharpness",
+                  "levels": 5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 80
+  },
+  "requirements": [
+    [
+      "kill"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bef",
+    "ghj",
+    "iii"
+  ],
+  "key": {
+    "b": {
+      "item": "rswords:bruh_sword"
+    },
+    "e": {
+      "item": "rswords:hell_iron_sword"
+    },
+    "f": {
+      "item": "rswords:ender_sword"
+    },
+    "g": {
+      "item": "rswords:bruh_ingot"
+    },
+    "h": {
+      "item": "rswords:hell_iron_ingot"
+    },
+    "j": {
+      "item": "rswords:ender_ingot"
+    },
+    "i": {
+      "item": "rswords:iron_stick"
+    }
+  },
+  "result": {
+    "item": "rswords:hell_bender_sword",
+    "count": 1
+  }
+}

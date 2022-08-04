@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "i"
+  ],
+  "key": {
+    "i": {
+      "item": "rswords:hell_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "rswords:hell_iron_stick",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+ {
+     "type": "minecraft:crafting_shapeless",
+     "ingredients": [
+         {
+             "item": "rswords:fire_shard"
+         },
+         {
+             "item": "rswords:fire_shard"
+         },
+         {
+             "item": "rswords:fire_shard"
+         },
+         {
+             "item": "rswords:fire_shard"
+         }
+     ],
+     "result": {
+         "item": "rswords:fire_ingot",
+         "count": 1
+     }
+ }

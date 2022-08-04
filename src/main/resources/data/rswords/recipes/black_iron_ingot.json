@@ -1,0 +1,21 @@
+ {
+     "type": "minecraft:crafting_shapeless",
+     "ingredients": [
+         {
+             "item": "rswords:black_iron_shard"
+         },
+         {
+             "item": "rswords:black_iron_shard"
+         },
+         {
+             "item": "rswords:black_iron_shard"
+         },
+         {
+             "item": "rswords:black_iron_shard"
+         }
+     ],
+     "result": {
+         "item": "rswords:black_iron_ingot",
+         "count": 1
+     }
+ }

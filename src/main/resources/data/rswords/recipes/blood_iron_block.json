@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    },
+    {
+      "item": "rswords:blood_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "rswords:blood_iron_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s",
+    "s",
+    "i"
+  ],
+  "key": {
+    "s": {
+      "item": "rswords:silver_ingot"
+    },
+    "i": {
+      "item": "rswords:iron_stick"
+    }
+  },
+  "result": {
+    "item": "rswords:silver_sword",
+    "count": 1
+  }
+}

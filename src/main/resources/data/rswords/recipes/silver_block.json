@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    },
+    {
+      "item": "rswords:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "rswords:silver_block",
+    "count": 1
+  }
+}

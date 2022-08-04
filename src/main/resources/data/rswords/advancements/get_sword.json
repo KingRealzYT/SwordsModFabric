@@ -1,0 +1,37 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.get_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.get_sword.description"
+    },
+    "icon": {
+      "item": "rswords:holy_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "rswords:textures/gui/advancements/backgrounds/sword.png"
+  },
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "rswords:swords"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+  },
+  "requirements": [
+    [
+      "sword"
+    ]
+  ]
+}

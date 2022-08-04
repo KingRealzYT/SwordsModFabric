@@ -1,0 +1,39 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.minecraft.story.bruh.title"
+    },
+    "description": {
+      "translate": "advancement.minecraft.story.bruh.description"
+    },
+    "icon": {
+      "item": "rswords:bruh_ingot"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "have_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rswords:bruh_ingot"
+            ],
+            "count": 42
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "have_items"
+    ]
+  ]
+}

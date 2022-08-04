@@ -13,43 +13,43 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     // Ore's
-    public static final OreBlock BLACK_IRON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock BLACK_IRON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock BLOOD_IRON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock BLOOD_IRON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock FIRE_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock FIRE_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock CRIMSON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock CRIMSON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock COBALT_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock COBALT_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock SILVER_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock SILVER_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock BRUH_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock BRUH_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock HELL_IRON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock HELL_IRON_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final OreBlock ENDER_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final OreBlock ENDER_ORE = new OreBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
 
     // Block's
-    public static final Block BLACK_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block BLACK_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block BLOOD_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block BLOOD_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block FIRE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block FIRE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block CRIMSON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block CRIMSON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block COBALT_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block COBALT_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block SILVER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block SILVER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block BRUH_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block BRUH_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block HELL_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block HELL_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
-    public static final Block ENDER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block ENDER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
 
 
     // Register Ore's
