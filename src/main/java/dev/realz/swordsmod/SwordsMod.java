@@ -1,5 +1,6 @@
 package dev.realz.swordsmod;
 
+import dev.realz.swordsmod.client.SwordsClient;
 import dev.realz.swordsmod.init.ModBlocks;
 import dev.realz.swordsmod.init.ModItems;
 import dev.realz.swordsmod.world.gen.ModOreGen;
@@ -53,5 +54,6 @@ public class SwordsMod implements ModInitializer {
         ModOreGen.registerConfiguredOre();
         ModOreGen.registerPlacedOre();
         ModOreGen.registerBiomeMod();
+        SwordsClient.registerKeys();
     }
 }

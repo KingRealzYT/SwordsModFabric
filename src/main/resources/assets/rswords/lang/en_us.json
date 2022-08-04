@@ -105,6 +105,9 @@
   "advancement.minecraft.end.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
   "advancement.minecraft.end.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword",
 
+  "key.rswords.abilities": "Abilities GUI",
+  "category.rswords.swordsmod": "SwordsMod Keybinds",
+
   "itemGroup.rswords.ingots": "Swords Mod | Ingots",
   "itemGroup.rswords.shards": "Swords Mod | Shards",
   "itemGroup.rswords.essences": "Swords Mod | Essences",
