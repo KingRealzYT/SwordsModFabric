@@ -1,19 +1,4 @@
 {
-  "display": {
-    "title": {
-      "translate": "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title"
-    },
-    "description": {
-      "translate": "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description"
-    },
-    "icon": {
-      "item": "minecraft:wooden_shovel"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "rswords:kill_zombie_having_holy_sword",
   "criteria": {
     "kill": {
@@ -46,6 +31,21 @@
         }
       }
     }
+  },
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description"
+    },
+    "icon": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "rewards": {
     "experience": 100

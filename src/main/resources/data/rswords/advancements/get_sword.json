@@ -1,4 +1,16 @@
 {
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "rswords:swords"
+          }
+        ]
+      }
+    }
+  },
   "display": {
     "title": {
       "translate": "advancement.rswords.get_sword.title"
@@ -14,20 +26,6 @@
     "announce_to_chat": true,
     "hidden": false,
     "background": "rswords:textures/gui/advancements/backgrounds/sword.png"
-  },
-  "criteria": {
-    "sword": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "rswords:swords"
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {
   },
   "requirements": [
     [

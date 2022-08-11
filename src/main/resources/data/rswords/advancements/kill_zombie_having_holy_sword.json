@@ -1,19 +1,4 @@
 {
-  "display": {
-    "title": {
-      "translate": "advancement.rswords.kill_zombie_having_holy_sword.title"
-    },
-    "description": {
-      "translate": "advancement.rswords.kill_zombie_having_holy_sword.description"
-    },
-    "icon": {
-      "item": "minecraft:zombie_head"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "rswords:get_holy_sword",
   "criteria": {
     "kill": {
@@ -46,6 +31,21 @@
         }
       }
     }
+  },
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.kill_zombie_having_holy_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.kill_zombie_having_holy_sword.description"
+    },
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "rewards": {
     "experience": 80

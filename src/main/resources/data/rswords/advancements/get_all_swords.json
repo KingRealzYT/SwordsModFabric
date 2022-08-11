@@ -1,19 +1,4 @@
 {
-  "display": {
-    "title": {
-      "translate": "advancement.rswords.get_all_swords.title"
-    },
-    "description": {
-      "translate": "advancement.rswords.get_all_swords.description"
-    },
-    "icon": {
-      "item": "rswords:blood_iron_sword"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "rswords:get_holy_sword",
   "criteria": {
     "wooden_sword": {
@@ -207,26 +192,79 @@
       }
     }
   },
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.get_all_swords.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.get_all_swords.description"
+    },
+    "icon": {
+      "item": "rswords:blood_iron_sword"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "requirements": [
-    ["wooden_sword"],
-    ["stone_sword"],
-    ["iron_sword"],
-    ["golden_sword"],
-    ["diamond_sword"],
-    ["netherite_sword"],
-    ["black_iron_sword"],
-    ["blood_sword"],
-    ["bruh_sword"],
-    ["cobalt_sword"],
-    ["crimson_sword"],
-    ["ender_sword"],
-    ["fire_sword"],
-    ["hell_blender_sword"],
-    ["hell_iron_sword"],
-    ["holy_sword"],
-    ["infested_sword"],
-    ["silver_sword"],
-    ["vampiric_sword"]
+    [
+      "wooden_sword"
+    ],
+    [
+      "stone_sword"
+    ],
+    [
+      "iron_sword"
+    ],
+    [
+      "golden_sword"
+    ],
+    [
+      "diamond_sword"
+    ],
+    [
+      "netherite_sword"
+    ],
+    [
+      "black_iron_sword"
+    ],
+    [
+      "blood_sword"
+    ],
+    [
+      "bruh_sword"
+    ],
+    [
+      "cobalt_sword"
+    ],
+    [
+      "crimson_sword"
+    ],
+    [
+      "ender_sword"
+    ],
+    [
+      "fire_sword"
+    ],
+    [
+      "hell_blender_sword"
+    ],
+    [
+      "hell_iron_sword"
+    ],
+    [
+      "holy_sword"
+    ],
+    [
+      "infested_sword"
+    ],
+    [
+      "silver_sword"
+    ],
+    [
+      "vampiric_sword"
+    ]
   ],
   "rewards": {
     "experience": 80

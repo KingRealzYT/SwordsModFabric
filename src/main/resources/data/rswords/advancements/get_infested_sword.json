@@ -1,4 +1,16 @@
 {
+  "criteria": {
+    "infested_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:infested_sword"
+          }
+        ]
+      }
+    }
+  },
   "display": {
     "title": {
       "translate": "advancement.rswords.get_infested_sword.title"
@@ -15,20 +27,7 @@
     "hidden": false,
     "parent": "rswords:get_a_sword"
   },
-  "criteria": {
-    "infested_sword": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "rswords:infested_sword"
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {},
-  "requirements": [
+"requirements": [
     "infested_sword"
   ]
 }
