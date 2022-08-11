@@ -207,6 +207,27 @@
       }
     }
   },
+  "requirements": [
+    ["wooden_sword"],
+    ["stone_sword"],
+    ["iron_sword"],
+    ["golden_sword"],
+    ["diamond_sword"],
+    ["netherite_sword"],
+    ["black_iron_sword"],
+    ["blood_sword"],
+    ["bruh_sword"],
+    ["cobalt_sword"],
+    ["crimson_sword"],
+    ["ender_sword"],
+    ["fire_sword"],
+    ["hell_blender_sword"],
+    ["hell_iron_sword"],
+    ["holy_sword"],
+    ["infested_sword"],
+    ["silver_sword"],
+    ["vampiric_sword"]
+  ],
   "rewards": {
     "experience": 80
   }
