@@ -1,19 +1,4 @@
 {
-  "display": {
-    "title": {
-      "translate": "advancement.rswords.charge_creeper.title"
-    },
-    "description": {
-      "translate": "advancement.rswords.charge_creeper.description"
-    },
-    "icon": {
-      "item": "minecraft:creeper_head"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "rswords:get_holy_sword",
   "criteria": {
     "charge": {
@@ -39,7 +24,21 @@
       }
     }
   },
-  "rewards": {},
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.charge_creeper.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.charge_creeper.description"
+    },
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "requirements": [
     [
       "charge"

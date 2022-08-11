@@ -1,4 +1,17 @@
 {
+  "parent": "rswords:get_vampiric_sword",
+  "criteria": {
+    "holy_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rswords:holy_sword"
+          }
+        ]
+      }
+    }
+  },
   "display": {
     "title": {
       "translate": "advancement.rswords.get_holy_sword.title"
@@ -14,20 +27,6 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "rswords:get_vampiric_sword",
-  "criteria": {
-    "holy_sword": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "rswords:holy_sword"
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {},
   "requirements": [
     [
       "holy_sword"

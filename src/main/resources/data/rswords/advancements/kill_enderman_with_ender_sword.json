@@ -1,19 +1,4 @@
 {
-  "display": {
-    "title": {
-      "translate": "advancement.rswords.kill_enderman_with_ender_sword.title"
-    },
-    "description": {
-      "translate": "advancement.rswords.kill_enderman_with_ender_sword.description"
-    },
-    "icon": {
-      "item": "rswords:ender_sword"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "rswords:kill_entity_with_sword",
   "criteria": {
     "killed": {
@@ -44,7 +29,21 @@
       }
     }
   },
-  "rewards": {},
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.kill_enderman_with_ender_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.kill_enderman_with_ender_sword.description"
+    },
+    "icon": {
+      "item": "rswords:ender_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "requirements": [
     [
       "killed"

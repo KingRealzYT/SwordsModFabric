@@ -1,19 +1,4 @@
 {
-  "display": {
-    "title": {
-      "translate": "advancement.rswords.kill_entity_with_sword.title"
-    },
-    "description": {
-      "translate": "advancement.rswords.kill_entity_with_sword.description"
-    },
-    "icon": {
-      "item": "minecraft:stone_sword"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "rswords:get_sword",
   "criteria": {
     "mainhand": {
@@ -35,7 +20,21 @@
       }
     }
   },
-  "rewards": {},
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.kill_entity_with_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.kill_entity_with_sword.description"
+    },
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "requirements": [
     [
       "mainhand"

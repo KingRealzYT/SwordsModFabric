@@ -1,19 +1,4 @@
 {
-  "display": {
-    "title": {
-      "translate": "advancement.rswords.overkill.title"
-    },
-    "description": {
-      "translate": "advancement.rswords.overkill.description"
-    },
-    "icon": {
-      "item": "rswords:crimson_sword"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "rswords:kill_entity_with_sword",
   "criteria": {
     "damage": {
@@ -34,7 +19,21 @@
       }
     }
   },
-  "rewards": {},
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.overkill.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.overkill.description"
+    },
+    "icon": {
+      "item": "rswords:crimson_sword"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "requirements": [
     [
       "damage"
