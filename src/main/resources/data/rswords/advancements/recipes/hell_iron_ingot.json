@@ -1,15 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "rswords:hell_iron_block",
-      "rswords:hell_iron_sword",
-      "rswords:hell_iron_stick"
-    ]
-  },
   "criteria": {
     "has_correct_items": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -17,6 +9,14 @@
           }
         ]
       }
-    }
+    },
+    "trigger": "minecraft:inventory_changed"
+  },
+  "rewards": {
+    "recipes": [
+      "rswords:hell_iron_block",
+      "rswords:hell_iron_sword",
+      "rswords:hell_iron_stick"
+    ]
   }
 }

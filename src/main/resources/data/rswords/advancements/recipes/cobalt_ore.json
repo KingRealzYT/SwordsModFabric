@@ -1,13 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "rswords:cobalt_ingot"
-    ]
-  },
   "criteria": {
     "has_correct_items": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -15,6 +9,12 @@
           }
         ]
       }
-    }
+    },
+    "trigger": "minecraft:inventory_changed"
+  },
+  "rewards": {
+    "recipes": [
+      "rswords:cobalt_ingot"
+    ]
   }
 }

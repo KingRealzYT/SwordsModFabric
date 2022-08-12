@@ -2,194 +2,194 @@
   "parent": "rswords:get_holy_sword",
   "criteria": {
     "wooden_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:wooden_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "stone_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:stone_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "iron_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:iron_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "golden_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:golden_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "diamond_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:diamond_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "netherite_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:netherite_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "black_iron_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:black_iron_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "blood_iron_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:blood_iron_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "bruh_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:bruh_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "cobalt_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:cobalt_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "crimson_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:crimson_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "ender_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:ender_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "fire_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:fire_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "hell_bender_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:hell_bender_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "hell_iron_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:hell_iron_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "holy_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:holy_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "infested_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:infested_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "silver_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:silver_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "vampiric_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:vampiric_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {

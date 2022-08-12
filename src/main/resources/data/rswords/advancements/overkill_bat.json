@@ -2,7 +2,6 @@
   "parent": "rswords:overkill",
   "criteria": {
     "overkill": {
-      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
           "dealt": {
@@ -19,7 +18,8 @@
         "entity": {
           "type": "minecraft:bat"
         }
-      }
+      },
+      "trigger": "minecraft:player_hurt_entity"
     }
   },
   "display": {
@@ -37,12 +37,12 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "rewards": {
-    "experience": 80
-  },
   "requirements": [
     [
       "overkill"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 80
+  }
 }

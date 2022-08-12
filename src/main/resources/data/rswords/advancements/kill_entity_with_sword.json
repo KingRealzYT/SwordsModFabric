@@ -2,7 +2,6 @@
   "parent": "rswords:get_sword",
   "criteria": {
     "mainhand": {
-      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": [
           {
@@ -18,7 +17,8 @@
           }
         ]
       }
-    }
+    },
+    "trigger": "minecraft:player_killed_entity"
   },
   "display": {
     "title": {
