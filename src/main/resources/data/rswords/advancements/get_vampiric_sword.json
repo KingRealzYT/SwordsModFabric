@@ -2,14 +2,14 @@
   "parent": "rswords:get_sword",
   "criteria": {
     "vampiric_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:vampiric_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {

@@ -1,20 +1,20 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "rswords:ender_ingot"
-    ]
-  },
   "criteria": {
     "has_correct_items": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:ender_shard"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
+  },
+  "rewards": {
+    "recipes": [
+      "rswords:ender_ingot"
+    ]
   }
 }

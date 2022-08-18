@@ -2,7 +2,6 @@
   "parent": "rswords:kill_entity_with_sword",
   "criteria": {
     "killed": {
-      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": [
           {
@@ -27,7 +26,8 @@
           }
         ]
       }
-    }
+    },
+    "trigger": "minecraft:player_killed_entity"
   },
   "display": {
     "title": {

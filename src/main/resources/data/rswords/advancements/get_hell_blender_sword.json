@@ -2,14 +2,14 @@
   "parent": "rswords:get_sword",
   "criteria": {
     "hell_bender_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:hell_bender_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {

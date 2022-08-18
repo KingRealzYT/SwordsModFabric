@@ -2,14 +2,14 @@
   "parent": "rswords:get_vampiric_sword",
   "criteria": {
     "holy_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:holy_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {

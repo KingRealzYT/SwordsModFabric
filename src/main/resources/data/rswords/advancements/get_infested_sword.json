@@ -1,14 +1,14 @@
 {
   "criteria": {
     "infested_sword": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:infested_sword"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -27,7 +27,7 @@
     "hidden": false,
     "parent": "rswords:get_a_sword"
   },
-"requirements": [
+  "requirements": [
     "infested_sword"
   ]
 }

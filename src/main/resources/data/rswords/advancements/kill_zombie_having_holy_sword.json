@@ -2,7 +2,6 @@
   "parent": "rswords:get_holy_sword",
   "criteria": {
     "kill": {
-      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
           "equipment": {
@@ -29,7 +28,8 @@
             }
           }
         }
-      }
+      },
+      "trigger": "minecraft:player_killed_entity"
     }
   },
   "display": {
@@ -47,12 +47,12 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "rewards": {
-    "experience": 80
-  },
   "requirements": [
     [
       "kill"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 80
+  }
 }

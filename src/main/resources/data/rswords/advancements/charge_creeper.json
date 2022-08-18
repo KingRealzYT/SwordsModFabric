@@ -2,7 +2,6 @@
   "parent": "rswords:get_holy_sword",
   "criteria": {
     "charge": {
-      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
           "equipment": {
@@ -21,7 +20,8 @@
         "entity": {
           "type": "minecraft:creeper"
         }
-      }
+      },
+      "trigger": "minecraft:player_hurt_entity"
     }
   },
   "display": {

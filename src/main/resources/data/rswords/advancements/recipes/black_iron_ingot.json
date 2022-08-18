@@ -1,21 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "rswords:black_iron_block",
-      "rswords:black_iron_sword"
-    ]
-  },
   "criteria": {
     "has_correct_items": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "rswords:black_iron_ingot"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
+  },
+  "rewards": {
+    "recipes": [
+      "rswords:black_iron_block",
+      "rswords:black_iron_sword"
+    ]
   }
 }
