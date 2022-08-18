@@ -1,5 +1,6 @@
 package dev.realz.swordsmod.gui;
 
+import dev.realz.swordsmod.swordeffects.SwordVariables;
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
 import io.github.cottonmc.cotton.gui.widget.WGridPanel;
 import io.github.cottonmc.cotton.gui.widget.WToggleButton;
@@ -13,12 +14,13 @@ public class SwordEffectsGUI extends LightweightGuiDescription {
         root.setSize(256, 240);
         root.setInsets(Insets.ROOT_PANEL);
 
-        WToggleButton toggleButton = new WToggleButton(Text.literal("This is a toggle button."));
+        WToggleButton toggleButton = new WToggleButton(Text.literal("Slowness Toggle"));
         toggleButton.setOnToggle(on -> {
-            // This code runs on the client when you toggle the button.
-            System.out.println("Toggle button toggled to " + (on ? "on" : "off"));
+            SwordVariables.SLOWNESS = !SwordVariables.SLOWNESS;
+            System.out.println(SwordVariables.SLOWNESS);
         });
 
+        root.add(toggleButton, 0, 0);
         root.validate(this);
     }
 }
