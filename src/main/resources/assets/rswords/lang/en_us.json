@@ -60,6 +60,8 @@
 
   "item.rswords.holy_sword": "Holy Sword",
 
+  "advancements.rswords.root.title": "RSwords Advancements Tab Unlocked",
+  "advancements.rswords.root.description": "Thank you for downloading the RSwords mod!",
   "advancement.rswords.get_sword.title": "Sword",
   "advancement.rswords.get_sword.description": "Get a sword, it's a good weapon",
   "advancement.rswords.get_all_swords.title": "Collector of Sharp Weapons",
