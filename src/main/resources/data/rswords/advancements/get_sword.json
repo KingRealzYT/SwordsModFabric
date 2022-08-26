@@ -1,4 +1,5 @@
 {
+  "parent": "rswords:root",
   "criteria": {
     "sword": {
       "conditions": {

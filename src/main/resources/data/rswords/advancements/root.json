@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "rswords:textures/gui/advancements/backgrounds/sword.png",
+    "description": {
+      "translate": "advancements.rswords.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bentenmod:holy_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.rswords.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ]
+}
