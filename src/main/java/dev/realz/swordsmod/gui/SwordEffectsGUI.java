@@ -11,7 +11,7 @@ public class SwordEffectsGUI extends LightweightGuiDescription {
     public SwordEffectsGUI() {
         WGridPanel root = new WGridPanel();
         setRootPanel(root);
-        root.setSize(256, 240);
+        root.setSize(100, 150);
         root.setInsets(Insets.ROOT_PANEL);
 
         WToggleButton toggleButton = new WToggleButton(Text.literal("Slowness Toggle"));

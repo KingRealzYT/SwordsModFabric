@@ -15,7 +15,9 @@ public class BlackIronSword extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 2, false, false));
+        if (SwordVariables.SLOWNESS) {
+            target.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 100, 2, false, false));
+        }
         return true;
     }
 }
