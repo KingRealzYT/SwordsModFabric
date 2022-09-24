@@ -1,26 +1,26 @@
 package dev.realz.swordsmod.gui;
 
-import dev.realz.swordsmod.swordeffects.SwordVariables;
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
-import io.github.cottonmc.cotton.gui.widget.WGridPanel;
+import io.github.cottonmc.cotton.gui.widget.WLabel;
+import io.github.cottonmc.cotton.gui.widget.WPlainPanel;
 import io.github.cottonmc.cotton.gui.widget.WToggleButton;
 import io.github.cottonmc.cotton.gui.widget.data.Insets;
 import net.minecraft.text.Text;
 
 public class SwordEffectsGUI extends LightweightGuiDescription {
     public SwordEffectsGUI() {
-        WGridPanel root = new WGridPanel();
+        WPlainPanel root = new WPlainPanel();
         setRootPanel(root);
-        root.setSize(100, 150);
+        root.setSize(120, 80);
         root.setInsets(Insets.ROOT_PANEL);
+
+        WLabel label = new WLabel(Text.literal("Coming Soon!"));
 
         WToggleButton toggleButton = new WToggleButton(Text.literal("Slowness Toggle"));
         toggleButton.setOnToggle(on -> {
-            SwordVariables.SLOWNESS = !SwordVariables.SLOWNESS;
-            System.out.println(SwordVariables.SLOWNESS);
         });
-
-        root.add(toggleButton, 0, 0);
+        root.add(toggleButton, 0, 10);
+        root.add(label, 25, 0);
         root.validate(this);
     }
 }

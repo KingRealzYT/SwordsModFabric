@@ -23,7 +23,6 @@ public class ModKeybinds {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (abilityKey.wasPressed()) {
                 MinecraftClient.getInstance().setScreen(new CottonClientScreen(new SwordEffectsGUI()));
-                client.player.sendMessage(Text.literal("You've pressed the key!"), false);
             }
         });
     }
