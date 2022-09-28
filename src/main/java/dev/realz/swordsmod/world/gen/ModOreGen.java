@@ -53,63 +53,63 @@ public class ModOreGen {
     public static PlacedFeature BLACK_IRON_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(BLACK_IRON_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(3),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature BLOOD_IRON_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(BLOOD_IRON_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(4),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature FIRE_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(FIRE_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(2),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature CRIMSON_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(CRIMSON_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(5),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature COBALT_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(COBALT_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(7),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature SILVER_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(SILVER_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(5),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature BRUH_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(BRUH_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(6),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature HELL_IRON_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(HELL_IRON_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(2),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
     public static PlacedFeature ENDER_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(ENDER_ORE),
             Arrays.asList(
-                    CountPlacementModifier.of(40),
+                    CountPlacementModifier.of(1),
                     SquarePlacementModifier.of(),
                     HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))));
 
