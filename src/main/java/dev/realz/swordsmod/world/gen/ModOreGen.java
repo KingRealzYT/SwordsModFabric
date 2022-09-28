@@ -4,6 +4,9 @@ import dev.realz.swordsmod.SwordsMod;
 import dev.realz.swordsmod.init.ModBlocks;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.minecraft.block.Blocks;
+import net.minecraft.structure.rule.BlockMatchRuleTest;
+import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
@@ -27,7 +30,7 @@ public class ModOreGen {
             (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.BLOOD_IRON_ORE.getDefaultState(), 6));
 
     private static ConfiguredFeature<?, ?> FIRE_ORE = new ConfiguredFeature
-            (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.FIRE_ORE.getDefaultState(), 6));
+            (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.NETHERRACK, ModBlocks.FIRE_ORE.getDefaultState(), 6));
 
     private static ConfiguredFeature<?, ?> CRIMSON_ORE = new ConfiguredFeature
             (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.CRIMSON_ORE.getDefaultState(), 6));
@@ -42,10 +45,10 @@ public class ModOreGen {
             (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.BRUH_ORE.getDefaultState(), 6));
 
     private static ConfiguredFeature<?, ?> HELL_IRON_ORE = new ConfiguredFeature
-            (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.HELL_IRON_ORE.getDefaultState(), 6));
+            (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.NETHERRACK, ModBlocks.HELL_IRON_ORE.getDefaultState(), 6));
 
     private static ConfiguredFeature<?, ?> ENDER_ORE = new ConfiguredFeature
-            (Feature.ORE, new OreFeatureConfig(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.ENDER_ORE.getDefaultState(), 6));
+            (Feature.ORE, new OreFeatureConfig(new BlockMatchRuleTest(Blocks.END_STONE), ModBlocks.ENDER_ORE.getDefaultState(), 6));
 
     public static PlacedFeature BLACK_IRON_ORE_PLACED = new PlacedFeature(
             RegistryEntry.of(BLACK_IRON_ORE),
@@ -118,7 +121,7 @@ public class ModOreGen {
                 new Identifier(SwordsMod.MOD_ID, "overworld_blood_iron_ore"), BLOOD_IRON_ORE);
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
-                new Identifier(SwordsMod.MOD_ID, "overworld_fire_ore"), FIRE_ORE);
+                new Identifier(SwordsMod.MOD_ID, "nether_fire_ore"), FIRE_ORE);
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
                 new Identifier(SwordsMod.MOD_ID, "overworld_crimson_ore"), CRIMSON_ORE);
@@ -133,10 +136,10 @@ public class ModOreGen {
                 new Identifier(SwordsMod.MOD_ID, "overworld_bruh_ore"), BRUH_ORE);
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
-                new Identifier(SwordsMod.MOD_ID, "overworld_hell_iron_ore"), HELL_IRON_ORE);
+                new Identifier(SwordsMod.MOD_ID, "nether_hell_iron_ore"), HELL_IRON_ORE);
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
-                new Identifier(SwordsMod.MOD_ID, "overworld_ender_ore"), ENDER_ORE);
+                new Identifier(SwordsMod.MOD_ID, "end_ender_ore"), ENDER_ORE);
     }
 
     public static void registerPlacedOre() {
@@ -146,7 +149,7 @@ public class ModOreGen {
         Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "overworld_blood_iron_ore"),
                 BLOOD_IRON_ORE_PLACED);
 
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "overworld_fire_ore"),
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "nether_fire_ore"),
                 FIRE_ORE_PLACED);
 
         Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "overworld_crimson_ore"),
@@ -161,10 +164,10 @@ public class ModOreGen {
         Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "overworld_bruh_ore"),
                 BRUH_ORE_PLACED);
 
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "overworld_hell_iron_ore"),
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "nether_hell_iron_ore"),
                 HELL_IRON_ORE_PLACED);
 
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "overworld_ender_ore"),
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(SwordsMod.MOD_ID, "end_ender_ore"),
                 ENDER_ORE_PLACED);
 
     }
@@ -178,9 +181,9 @@ public class ModOreGen {
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
                         new Identifier(SwordsMod.MOD_ID, "overworld_blood_iron_ore")));
 
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-                        new Identifier(SwordsMod.MOD_ID, "overworld_fire_ore")));
+                        new Identifier(SwordsMod.MOD_ID, "nether_fire_ore")));
 
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
@@ -198,13 +201,13 @@ public class ModOreGen {
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
                         new Identifier(SwordsMod.MOD_ID, "overworld_bruh_ore")));
 
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-                        new Identifier(SwordsMod.MOD_ID, "overworld_hell_iron_ore")));
+                        new Identifier(SwordsMod.MOD_ID, "nether_hell_iron_ore")));
 
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-                        new Identifier(SwordsMod.MOD_ID, "overworld_ender_ore")));
+                        new Identifier(SwordsMod.MOD_ID, "end_ender_ore")));
 
     }
 
