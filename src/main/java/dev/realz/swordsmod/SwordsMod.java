@@ -54,6 +54,5 @@ public class SwordsMod implements ModInitializer {
         ModOreGen.registerConfiguredOre();
         ModOreGen.registerPlacedOre();
         ModOreGen.registerBiomeMod();
-        ModKeybinds.registerKeys();
     }
 }
