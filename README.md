@@ -10,6 +10,10 @@ Swords Mod only has one developer, but since it is open source, anyone can contr
 
 Note: The first fabric release is not out yet but will be in the near feature  
 
+## Trello
+- [SwordsModFabric Trello](https://trello.com/b/4iUGVKS0/swordsmodfabric)
+- [SwordsModForge Trello](https://trello.com/b/sE6DcGmR/swordsmodforge)
+
 ## Downloads
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/swords-mod/files)
