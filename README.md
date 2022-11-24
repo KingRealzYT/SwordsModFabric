@@ -1,4 +1,4 @@
-[![](http://cf.way2muchnoise.eu/packmenu.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod) [![](http://cf.way2muchnoise.eu/versions/swords-mod.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod)
+[![](http://cf.way2muchnoise.eu/swords-mod.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod) [![](http://cf.way2muchnoise.eu/versions/swords-mod.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod)
 
 # Looking for the Forge version's GitHub? Find it [here](https://github.com/KingRealzYT/SwordsModForge). 
 
